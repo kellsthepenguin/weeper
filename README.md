@@ -1,4 +1,3 @@
 # Weeper
 
-The other web frameworks are too boring so, i created this repository.
-(works on deno)
+other web frameworks are too boring so, i created this repository.
