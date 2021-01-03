@@ -52,7 +52,8 @@ class Weeper {
         const server = new Server(listener)
 
         for await (const req of server) {
-            const handler = this.routes.get(req.url, req.method)
+            const url = req.url.split('?')[0]
+            const handler = this.routes.get(url, req.method)
 
             console.log(this.routes)
 
