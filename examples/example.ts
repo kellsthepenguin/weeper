@@ -7,7 +7,7 @@ app.setErrorHandler(404, (req) => {
 })
 
 app.handle('/', 'GET', (req) => {
-    req.respond({ body: 'success' })
+    req.respond({ body: '<h1>It Works!</h1>' })
 })
 
 app.listen(':8080')
